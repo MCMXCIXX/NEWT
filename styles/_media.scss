@@ -1,0 +1,189 @@
+@media (max-width: 1760px) {
+	.main__title {
+		font-size: 95px;
+		-webkit-text-stroke: 7px #582f00;
+		text-stroke: 7px #582f00;
+		max-width: 608px;
+	}
+	.hamster img {
+		width: 100%;
+	}
+	.hamster {
+		max-width: 500px;
+		bottom: -131px;
+	}
+	.dialogue {
+		width: 274px;
+		height: 210px;
+		background-size: cover;
+		z-index: 7;
+	}
+	.footer__content {
+	}
+}
+@media (max-width: 1130px) {
+	.main__title {
+		font-size: 75px;
+		-webkit-text-stroke: 5px #582f00;
+		text-stroke: 5px #582f00;
+		max-width: 508px;
+	}
+	.hamster img {
+		width: 100%;
+	}
+	.hamster {
+		max-width: 400px;
+		bottom: -31px;
+	}
+	.dialogue {
+		width: 220px;
+		height: 150px;
+		background-size: cover;
+		z-index: 7;
+	}
+	.dialogue__text {
+		font-size: 30px;
+		max-width: 122px;
+	}
+	.footer__content {
+		margin-top: 252px;
+	}
+	.social__list {
+		width: 87px;
+		height: 236px;
+		gap: 31px;
+	}
+	.social__list img {
+		max-width: 43px;
+	}
+	.logo {
+		margin-top: 33px;
+		margin-bottom: 32px;
+	}
+}
+@media (max-width: 1130px) {
+	.main__title {
+		font-size: 56px;
+		-webkit-text-stroke: 5px #582f00;
+		text-stroke: 5px #582f00;
+		max-width: 303px;
+	}
+	.hamster img {
+		width: 100%;
+	}
+	.hamster {
+		max-width: 300px;
+		bottom: -31px;
+	}
+	.dialogue {
+		width: 220px;
+		height: 150px;
+		background-size: cover;
+		z-index: 7;
+	}
+	.dialogue__text {
+		font-size: 30px;
+		max-width: 122px;
+	}
+	.footer__content {
+		margin-top: 252px;
+	}
+	.social__list {
+		width: 87px;
+		height: 236px;
+		gap: 31px;
+	}
+	.social__list img {
+		max-width: 43px;
+	}
+	.logo {
+		margin-top: 33px;
+		margin-bottom: 32px;
+	}
+}
+@media (max-width: 768px) {
+	.main {
+		max-height: unset;
+	}
+	.content {
+		display: flex;
+		flex-direction: column;
+		padding: 0%;
+		gap: 20px;
+	}
+	.main__title {
+		font-size: 56px;
+		-webkit-text-stroke: 6px #582f00;
+		text-stroke: 6px #582f00;
+		max-width: 303px;
+		margin-bottom: 95px;
+	}
+	.hamster img {
+		width: 100%;
+	}
+	.hamster {
+		position: relative;
+		left: unset;
+		max-width: 510px;
+		bottom: -31px;
+		left: 255px;
+	}
+	.dialogue {
+		background-image: url(../images/dea-bg-small.png);
+		width: 326px;
+		height: 271px;
+		background-size: cover;
+		z-index: 7;
+		margin-bottom: 40px;
+	}
+	.dialogue__text {
+		margin-top: -40px;
+		font-size: 40px;
+		max-width: 210px;
+	}
+	.footer__content {
+		margin-top: unset;
+	}
+	.social__list {
+		flex-direction: row;
+		width: 236px;
+		height: 87px;
+		margin-bottom: 30px;
+	}
+	.social__list img {
+		max-width: 43px;
+	}
+	.btn__buy {
+		width: 236px;
+		height: 81px;
+	}
+	.logo {
+		margin-top: 77px;
+		margin-bottom: 92px;
+	}
+	.footer__text {
+		text-align: center;
+	}
+	.footer__text span {
+		display: flex;
+		justify-content: center;
+	}
+}
+@media (max-width: 500px) {
+	.main {
+		background-image: url(../images/main-bg-small.jpg);
+	}
+	.hamster img {
+		width: 510px;
+	}
+	.hamster {
+		bottom: -31px;
+		left: 215px;
+	}
+	.main__title {
+		text-align: center;
+	}
+	.dialogue__text {
+		text-align: center;
+	}
+}
